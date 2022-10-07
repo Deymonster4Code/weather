@@ -3,12 +3,12 @@ import requests
 url_template = 'https://wttr.in/{}'
 
 # Прогноз для Лондона
-id1 = 'London'
+place1 = 'London'
 # Прогноз для аэропорта Шереметьево
-id2 = 'svo'
+place2 = 'svo'
 # Прогноз для Череповца
-id3 = 'Череповец'
-places = [id1, id2, id3]
+place3 = 'Череповец'
+places = [place1, place2, place3]
 payload = {'MnqmT':'', 'lang': 'ru'}
 
 for place in places:
