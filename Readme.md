@@ -11,7 +11,9 @@ git clone https://github.com/Deymonster4Code/weather.git
 ## Установка и активация виртуального окружения
 
 1. Windows 
-   
+```
+
+```
 2. MacOs  
 
 ```
@@ -21,6 +23,9 @@ pipenv shell
 pipenv install -r requirements.txt
 ```
 3. Linux
+   
+```
+```
    
 ## Запуск
 
